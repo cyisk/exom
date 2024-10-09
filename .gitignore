@@ -1,0 +1,6 @@
+__pycache__/
+dataset/synthetic/regional_canonical/rcm_saves/
+script/counterfactual/density_estimation/val_saves/
+tests/
+config/
+output/
