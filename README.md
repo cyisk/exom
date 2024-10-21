@@ -1,10 +1,10 @@
 # Exogenous Matching: Learning Good Proposals for Tractable Counterfactual Estimation
 
-This repository contains the complete code for "[Exogenous Matching: Learning Good Proposals for Tractable Counterfactual Estimation](https://arxiv.org/abs/...)".
+This repository contains the complete code for "[Exogenous Matching: Learning Good Proposals for Tractable Counterfactual Estimation](https://arxiv.org/abs/2410.13914)".
 
 ## Requirements
 
-- Install Manually
+- Install Requirements Manually
 
     Ensure the installation of Conda, create a new Conda environment, and activate it:
 
@@ -21,9 +21,9 @@ This repository contains the complete code for "[Exogenous Matching: Learning Go
     pip install seaborn tueplots zuko==1.1.0
     ```
 
-    All learning components are constructed based on the Torch framework, and we recommend utilizing GPU accelerators to expedite sampling. The implementation of normalizing flows and masking mechanisms is from Zuko, with this work involving minor modifications to their source code.
+    All learning components are constructed based on the Torch framework, and we recommend utilizing GPU accelerators to expedite sampling. The implementation of normalizing flows and masking mechanisms is from [Zuko](https://github.com/probabilists/zuko), with this work involving minor modifications to their source code.
 
-- Install from `environment.yml`
+- Install Requirements from `environment.yml`
 
     ```shell
     conda env create -f environment.yml
@@ -270,4 +270,14 @@ The directories `counterfactual` and `proxy_scm` contain all the scripts used fo
 
 ## Citation
 
-To be continue....
+```bib
+@misc{2024exom,
+      title={Exogenous Matching: Learning Good Proposals for Tractable Counterfactual Estimation}, 
+      author={Yikang Chen and Dehui du and Lili Tian},
+      year={2024},
+      eprint={2410.13914},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2410.13914}, 
+}
+```
